@@ -1,0 +1,20 @@
+@keyframes highlight {
+  0% { background-color: transparent; }
+  50% { background-color: rgba(59, 130, 246, 0.1); }
+  100% { background-color: transparent; }
+}
+
+.highlight-term {
+  animation: highlight 2s ease-in-out;
+}
+
+.term-link {
+  color: #2563eb;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.term-link:hover {
+  text-decoration: underline;
+  color: #1d4ed8;
+}
